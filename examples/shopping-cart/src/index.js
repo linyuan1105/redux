@@ -7,7 +7,7 @@ import thunk from 'redux-thunk'
 import reducer from './reducers'
 import { getAllProducts } from './actions'
 import App from './containers/App'
-
+import Counter from "./counter";
 const middleware = [ thunk ];
 if (process.env.NODE_ENV !== 'production') {
   middleware.push(createLogger());
@@ -22,7 +22,7 @@ store.dispatch(getAllProducts())
 
 render(
   <Provider store={store}>
-    <App />
+    <Counter />
   </Provider>,
   document.getElementById('root')
 )

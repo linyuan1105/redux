@@ -1,0 +1,19 @@
+.post-excerpt{
+  display: flex;
+  align-items: center;
+}
+.post-add {
+  width: 100px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.my-canvas {
+  margin: 30px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+.post-item {
+  margin: 10px;
+  font-weight: 600;
+}

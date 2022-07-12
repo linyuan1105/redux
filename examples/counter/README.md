@@ -1,46 +1,28 @@
-# Getting Started with Create React App and Redux
+## 主旨
+使用 Typescript + React 实现一个角色列表，并具备以下功能，任何题目中没有描述的部分，你都可以按你的想法进行补充：
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+角色列表
+显示角色条目，点击条目后可展开显示角色信息，包括昵称、职业、当前坐标等，可以自由添加你觉得该有的信息；
+增加角色，在输入角色信息后，点击按钮可以新增角色到列表中；
+删除角色，点击角色信息条目后的删除按钮，可以从列表中删除对应的角色；
+选做题
+如果你觉得上面的题目太简单，那么可以再多做一步：
 
-## Available Scripts
+使用 Canvas 绘制角色地图
+展示10 * 10 大小的地图，包含一个坐标系（X、Y轴），坐标单位长度可以按照你的喜好自由设定，只需要保证能够显示(0,0) 到 (10,10) 坐标即可；
+对于每个角色列表中的角色，在地图上对应坐标位置展示一个标记（任意图形均可，比如一个圆点、一个三角形）；
+当增加、删除角色时，更新显示或删除对应的标记；
+要求
+UI界面请自由发挥，这里提供一个简单的交互参考，但不意味着你一定要做成这样：
 
-In the project directory, you can run:
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 效果图
+![](./img/img.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 说明
+由于一些时间缘故，暂时未使用Typescript去实现该功能
